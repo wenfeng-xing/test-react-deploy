@@ -16,6 +16,9 @@ jobs:
       - checkout
       - run:
           command: "npm install"
+      - add_ssh_keys:
+          fingerprints:
+            - 70:7c:6c:20:31:07:81:dc:69:0e:e7:b6:c3:db:b1:2c
       - run:
           name: "deploy"
           command: "bash ./deploy.sh"
