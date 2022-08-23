@@ -32,7 +32,7 @@ function App() {
     <>
       <BrowserRouter>
         <div>
-          <h1>Home</h1>
+          <h1>build success</h1>
           <nav>
             <Link to="/">Home</Link>
             <br/>
