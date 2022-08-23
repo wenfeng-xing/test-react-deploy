@@ -15,6 +15,8 @@ jobs:
     steps:
       - checkout
       - run:
+          command: "npm install"
+      - run:
           name: "deploy"
           command: "bash ./deploy.sh"
 
